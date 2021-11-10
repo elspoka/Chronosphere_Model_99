@@ -66,11 +66,11 @@ battery.onchange = (charger, evt) => {
 
 // Get current datetime into the date placeholder. e.g. Thu, 7 Jan
 function getDate(currentTime) {
-  let dayIndex = currentTime.getDay();
+  let dayIndex   = currentTime.getDay();
   let dayOfMonth = currentTime.getDate();
   let monthIndex = currentTime.getMonth();
   // set the actual date to the placeholder
-  dateData.text = `${util.getDayName(dayIndex)}, ${dayOfMonth} ${util.getMontName(monthIndex)}`;
+  dateData.text  = `${util.getDayName(dayIndex)}, ${dayOfMonth} ${util.getMontName(monthIndex)}`;
 }
 
 function updateHeartRateSensor() {
@@ -80,14 +80,14 @@ function updateHeartRateSensor() {
 
 // Rotate the hands every tick
 clock.ontick = (evt) => {
-  let today = evt.date;
-  let hours = today.getHours();
-  let mins = today.getMinutes();
-  let secs = today.getSeconds();
+   let today = evt.date;
+   let hours = today.getHours();
+   let mins  = today.getMinutes();
+   let secs  = today.getSeconds();
   
-hourhand.groupTransform.rotate.angle = hoursToAngle(hours, mins);
+hourhand.groupTransform.rotate.angle   = hoursToAngle(hours, mins);
 minutehand.groupTransform.rotate.angle = minutesToAngle(mins);
-sechand.groupTransform.rotate.angle = secondsToAngle(secs);
+sechand.groupTransform.rotate.angle    = secondsToAngle(secs);
 
 // Update the <text> element every tick with the current time
     hours = util.zeroPad(hours);
