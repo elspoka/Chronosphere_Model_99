@@ -1,4 +1,4 @@
-# Chronosphere_model_99
+# Chronosphere_Model_99
 Clock Face for Fitbit Sense/Versa
 
 ## Prerequisites
