@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "10e8ed37-d7ae-4589-991c-701123e0cbad",
+    "appType": "clockface",
+    "appDisplayName": "Chronosphere",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_sleep",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Chronosphere"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
