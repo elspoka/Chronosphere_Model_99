@@ -23,7 +23,7 @@ git clone https://github.com/elspoka/Chronosphere_model_99.git
 Go to project folder
 
 ```shell
-cd fitbit-mountain-face
+cd Chronosphere_model_99
 ```
 
 Build dependencies
