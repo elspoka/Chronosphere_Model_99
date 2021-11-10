@@ -23,7 +23,7 @@ git clone https://github.com/elspoka/Chronosphere_model_99.git
 Go to project folder
 
 ```shell
-cd Chronosphere_model_99
+cd Chronosphere_Model_99
 ```
 
 Build dependencies
