@@ -54,7 +54,6 @@ hrm.onreading = function () {
   heartRate.text = hrm.heartRate;
 };
 
-
 battery.onchange = (charger, evt) => {
   checkAndUpdateBatteryLevel();
 }
