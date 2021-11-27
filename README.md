@@ -12,7 +12,11 @@ Also, Fitbit has an online editor (Fitbit Studio) that you is easy to use in ord
 
 ```text
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+```
+```text
 https://dev.fitbit.com/release-notes/fitbit-os-simulator/
+```
+```text
 https://studio.fitbit.com/
 ```
 ## Installing
