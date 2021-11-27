@@ -10,12 +10,11 @@
     "wipeColor": "",
     "requestedPermissions": [
       "access_heart_rate",
-      "access_sleep",
       "access_activity"
     ],
     "buildTargets": [
-      "atlas",
-      "vulcan"
+      "vulcan",
+      "atlas"
     ],
     "i18n": {
       "en-US": {
