@@ -1,5 +1,8 @@
 # Chronosphere_Model_99
-Clock Face for Fitbit Sense/Versa
+Clock Face for Fitbit Sense/Versa 3
+
+[![fitbit gallery](https://img.shields.io/badge/Fitbit%20Gallery-v1.0.0-green.svg)](https://gallery.fitbit.com/details/10e8ed37-d7ae-4589-991c-701123e0cbad)
+
 
 ## Prerequisites
 
@@ -51,6 +54,8 @@ install
 ```
 
 If everything goes well and there is no error in the terminal logs, you will see the similar image like below in your Fitbit simulator.
+
+![Fitbit Sense - Chronosphere model 99](screenshot/Chronosphere_model_99-screenshot_01.png "Chronosphere model 99")
 
 ## Built With
 
